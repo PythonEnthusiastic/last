@@ -1,0 +1,153 @@
+html, body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(247, 245, 245);
+}
+.edit {
+  width: 90%;
+  display: none;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.editor {
+  padding: .5% 1%;
+  width: 85%;
+  font-size: 20px;
+}
+#editor-submit {
+  margin-left: 2%;
+  font-size: 25px;
+  color: rgb(134, 210, 245);
+}
+.s {
+  display: block;
+}
+#content {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+}
+#header {
+  width: 80%;
+  position: fixed;
+  block-size: 3%;
+  margin-left: 10%;
+}
+#inner-header {
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+}
+#post {
+  margin-bottom: -25px;
+  width: 100%;
+  float: left;
+  padding-left: 35px;
+}
+#inner-header h1 {
+  width: 95%;
+  float: left;
+  padding-left: 35px;
+  font-size: 52px;
+}
+#inner-content {
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 75%;
+  width: 80%;
+  background-color: rgb(238, 234, 234);
+  margin-top: -1.5%;
+}
+#comment {
+  border: 2px solid black;
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  padding-right: 6%;
+  white-space: wrap;
+  background-color: white;
+  padding-bottom: 1%;
+}
+.comment-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: -100%;
+  block-size: 60px;
+}
+.comment-header span {
+  margin-top: 1%;
+}
+#comment-add {
+  position: fixed;
+  bottom: 0px;
+  width: 90%;
+}
+.comment-edit {
+  margin-right: 30px;
+  padding-left: 20px;
+}
+.username {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+}
+#holder {
+  float: right;
+  color: rgb(134, 210, 245);
+  font-size: 20px;
+}
+#pic img { 
+  height: 100%;
+  width: 100%;
+}
+#pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#comment-content {
+  display: inline;
+  margin-left: 5%;
+  block-size: 0%;
+  font-size: 30px;
+}
+#comment-content span {
+  padding-bottom: 2%;
+}
+#center {
+  width: 90%;
+  margin-bottom: 1.1%;
+  margin-left: 2%;
+}
+.fill {
+  width: 89%;
+  padding-bottom: 1%;
+  padding-top: 1.6%;
+  margin-left: 5.5%;
+  background-color: white;
+}
+#name {
+  font-size: 20px;
+  padding: .4%;
+  width: 11%;
+  margin-right: 1%;
+}
+#comment-text {
+  width: 78%;
+  padding: .4% .4%;
+  font-size: 20px;
+}
+#button {
+  font-size: 20px;
+  margin-left: 1%;
+  color: rgb(134, 210, 245);
+}
